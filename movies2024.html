@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BestFilms By Year</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h2>Filtered<span>Films</span></h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://timesofindia.indiatimes.com/entertainment">News</a></li>
+        <li><a href="mailto:maniprasanth1122@gmail.com">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tvshow.html">TV Shows</a></li>
+        <li><a href="series.html">Genre</a></li>
+        <li><a href="popular.html">Most popular movies</a></li>
+      </ul>
+      <button id="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <div class="movie-container">
+    <div class="movie">
+      <img src="https://images.indianexpress.com/2024/02/Manjummel-Boys-movie-review-22022024-feat-image.jpg" alt="Manjummel Boys">
+      <a href="manjummel boys.jpg">
+        <h3>Manjummel Boys</h3>
+      </a>
+      <span>
+        <h4>
+          Manjummel Boys is a 2024 Indian Malayalam-language survival thriller
+          film written and directed by Chidambaram. The film follows a
+          group of friends from a small town called Manjummel near Kochi, who
+          decide to have a vacation in Kodaikanal, which is affected when one
+          of them becomes trapped in the Guna Caves.
+        </h4>
+      </span>
+      <h4>Stars</h4>
+      <a href="https://en.wikipedia.org/wiki/Soubin_Shahir"><span><li>Soubin Shahir</li></span></a>
+    </div>
+
+    <div class="movie">
+      <img src="https://imgix.hoyts.com.au/mx/posters/nz/premalu-773ce50c.jpg" alt="Premalu">
+      <a href="https://www.imdb.com/title/tt28288786/">
+        <h3>Premalu</h3>
+      </a>
+      <span>
+        <h4>
+          Sachin's quest for love takes unexpected turns, creating a
+          laughter-filled love triangle.
+        </h4>
+      </span>
+      <h4 style="color: rgb(3, 219, 68);">Stars</h4>
+      <a href="https://en.wikipedia.org/wiki/Naslen_K._Gafoor"><span>Naslen</span></a>
+      <a href="https://en.wikipedia.org/wiki/Mamitha_Baiju"><span>Mamitha Baiju</span></a>
+    </div>
+
+    <div class="movie">
+      <img src="https://m.media-amazon.com/images/M/MV5BNjI4MGFmMmYtOWVkYy00YmZmLTg0MzItOGY4ODdjMjFhOWEzXkEyXkFqcGdeQXVyMTAxMTA0OTgw._V1_.jpg" alt="Ambajipeta Marriage Band">
+      <a href="https://www.imdb.com/title/tt27494315/">
+        <h3>Ambajipeta Marriage Band</h3>
+      </a>
+      <span>
+        <h4>
+          Ambajipeta Marriage Band unfolds in the quaint village of Ambajipeta
+          in the East Godavari district, Andhra Pradesh. The central
+          characters are Malli and Padma, twins raised by Kanaka, a salon
+          owner. Malli becomes a skilled barber in a marriage band, while
+          Padma, a teacher, faces rumours of an alleged relationship with
+          Venkata Babu.
+        </h4>
+      </span>
+      <h4>Stars</h4>
+      <a href="https://en.wikipedia.org/wiki/Suhas"><span>Suhas</span></a>
+      <a href="https://en.wikipedia.org/wiki/Sharanya_Pradeep"><span>Sharanya Pradeep</span></a>
+    </div>
+
+    <div class="movie">
+      <img src="https://th.bing.com/th/id/OIP.DIY9EgQghR3ze0muCEU2igAAAA?rs=1&pid=ImgDetMain" alt="Hanu-man">
+      <a href="https://www.imdb.com/title/tt15433956/">
+        <h3>Hanu-man</h3>
+      </a>
+      <span>
+        <h4>
+          Hanu-Man is a 2024 Indian Telugu-language superhero film written and directed by Prasanth Varma. It stars Teja Sajja in the title role, alongside Amritha Aiyer, Varalaxmi Sarathkumar, Samuthirakani, Vinay Rai, Vennela Kishore and Raj Deepak Shetty.
+        </h4>
+      </span>
+      <h4>Stars</h4>
+      <a href="https://en.wikipedia.org/wiki/Teja_Sajja"><span>Teja Sajja</span></a>
+    </div>
+  </div>
+
+  <div id="btn">
+    <input type="button" value="Load More">
+  </div>
+
+  <script>
+    const toggleButton = document.getElementById("dark-mode-toggle");
+    toggleButton.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>
